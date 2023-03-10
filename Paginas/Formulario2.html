@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Novo formulario</h1>
+    <form action="Cadastro.php" method="post" autocomplete="on">
+ <p><label for="iusu">Usuario: </label>
+<input type="text" name="usu" id="iusu" required placeholder="Nome" size="10" autocomplete="username">    
+</p>
+<p><label for="isen">Senha:</label>
+<input type="password" name="sen" id="isen" required minlength="8" maxlength="20" size="8" placeholder="Senha"></p>
+<p><input type="submit" value="enviar" autocomplete="curent-password"> <input type="reset" value="limpar"></p>
+</form>
+
+<h2>outro formualrio</h2>
+<form action="Cadastro.php" method="get">
+    <p>
+        <label for="inome">Nome</label>
+        <input type="text" name="nome" id="inome"
+        autocomplete="name" placeholder="Nome completo" maxlength="30" required></p>
+
+        <p>
+            <label for="imedia">Média</label>
+            <input type="number" name="media" id="imedia" placeholder="0 a 10" step="0.1" min="0" max="10" required >
+        </p>
+        <p><label for="imes">
+        Mes</label>
+        <input type="month" name="mes" id="imes" placeholder="mes" value="2023-03">
+    </p>
+    <p>
+        <label for="ihora">Hora do dia</label>
+        <input type="time" name="hora" id="ihora">
+    </p>
+<p>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">
+</p>
+</form>
+<p><a href="../index.html"><button>Voltar</button></a></p>
+</body>
+</html>

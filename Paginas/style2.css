@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+* {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+/*sobre os tamanhos de fontes, podem ser medidos de absolutas, 
+cm, mm , in , px , pt , pc --> todas essas tem alguns probleminahs de compatibilidade, podem existir por exemplo telas de retina que sao de 1/4de pxiel etc 
+
+e tem medidas relativas
+em (ao tmanao atula M da fonte) , ex (ao tamanho x da fonte) , REM (realtivo ao fonte do body) , VW ( relacionado a largura da viewport, VH (realcionado a altura da viewport) e pode usar %  
+
+as recomendads sao px e em , segundo a recomedação da WTC 
+16px geralemnte = a 1 em */}
+
+
+body
+{
+    background-image: linear-gradient( to right,#427F8C,#69AFBF);
+}
+main{
+    background-color: white; 
+    border-radius: 10px;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 15px #012E40;
+}
+
+h1{color:#373737 ;}
+
+h2{color: #343333;}
+
+p{
+    text-align: justify;
+}
